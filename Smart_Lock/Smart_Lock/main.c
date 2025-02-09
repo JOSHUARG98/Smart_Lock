@@ -5,7 +5,7 @@
  * Author : Rosas Garcia Angel Joshua
  
  -----------Calypso Smart_Lock------------------
- Con GITHUB
+ git hub
  */ 
 
 #include <avr/io.h>
