@@ -1,14 +1,20 @@
-/*
- * Smart_Lock.c
- *
- * Created: 01/02/2025 01:54:27 p. m.
- * Author : Rosas Garcia Angel Joshua
- 
- -----------Calypso Smart_Lock------------------
- git hubgit remote add origin https://github.com/JOSHUARG98/Smart_Lock.git
-Sigo trabajando en el repositorio local 
+/******************************************************************************
+ * 
+ *                           Smart_Lock.c
+ * 
+ *  Created:    01/02/2025 13:54:27
+ *  Author:     Rosas Garcia Angel Joshua
+ *  Repository: https://github.com/JOSHUARG98/Smart_Lock.git
+ * 
+ *   ---------------------------------------------------------------------------
+ *  |                        POWERED BY CALYPSO                                 |
+ *  |                    Calypso Smart Lock System                              |
+ *   ---------------------------------------------------------------------------
+ * 
+ *******************************************************************************/
 
- */ 
+
+
 
 #include <avr/io.h>
 #include <util/delay.h>
@@ -25,7 +31,7 @@ Sigo trabajando en el repositorio local
 
 // Mapeo de PAD NUMERICO //
 
-// Definici�n de filas (renglones)
+// Definición de filas (renglones)
 #define FILA_1  PD7
 #define FILA_2  PD6
 #define FILA_3  PD5
@@ -41,11 +47,6 @@ Sigo trabajando en el repositorio local
 
 /******************************************************************/
 /**************************DEFINICIONES FIN**************************/
-
-
-
-
-
 
 void setup_gpio(void) ;
 void toggle_leds(void);
@@ -69,9 +70,7 @@ int main(void)
 		
 		if ((PIND & MASCARA) != MASCARA) {
 			beep_buzzer();
-			// PD5 est� en HIGH (5V)
 			} else {
-			// PD5 est� en LOW (0V)
 		}
 	}
 }
