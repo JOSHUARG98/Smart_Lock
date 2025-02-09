@@ -5,7 +5,9 @@
  * Author : Rosas Garcia Angel Joshua
  
  -----------Calypso Smart_Lock------------------
- git hub
+ git hubgit remote add origin https://github.com/JOSHUARG98/Smart_Lock.git
+Sigo trabajando en el repositorio local 
+
  */ 
 
 #include <avr/io.h>
